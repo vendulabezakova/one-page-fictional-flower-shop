@@ -12,3 +12,10 @@ h1 {
     text-shadow: 2px 1px 5px rgb(0, 0, 0);
     font-size: 45px;
 }
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 62px;
+        margin-top: 130px;
+    }
+  }

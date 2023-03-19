@@ -12,11 +12,38 @@
     <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/103/103042.png">
 </head>
 <body>
+
+    <button onclick="topFunction()" id="scrollbtn" title="Go to top">↑</button>
+
+    
+    <script>
+    // Get the button
+    let mybutton = document.getElementById("scrollbtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>    
+
+
     <nav>
         <ul>
-            <li><a href="#">Weddings</a></li>
-            <li><a href="#">Flowers</a></li>
-            <li><a href="#">Plants</a></li>
+            <li><a href="#weddings">Weddings</a></li>
+            <li><a href="#flowers">Flowers</a></li>
+            <li><a href="#plants">Plants</a></li>
         </ul>
     </nav>
 
@@ -30,7 +57,7 @@
         <p>Tips for floriculture</p>
     </section>
 
-    <section class="weddings">
+    <section class="weddings" id="weddings">
         <h2>Weddings</h2>
         <p>If you're planning a wedding with plenty of special touches, it's a good idea to think about personalizing your flowers. Instead of basing your choices on color and style alone, though, let each flower's significance inform your final decision.</p>
         <p>From your bridal bouquet to your ceremony arrangements, there are so many ways to infuse your personality into your wedding day blooms, especially if you're mindful of their individual meanings.</p>
@@ -38,7 +65,7 @@
 
     <img class="divider" src="images/55e4e9230b24b83dba2c49d3609cdca3.jpg">
 
-    <section class="flowers">
+    <section class="flowers" id="flowers">
         <h2>Flowers</h2>
         <p>Different kinds of home accents drift in and out of style, but there’s one form of accessorising that will never lose its allure—the tried-and-true floral arrangement. Perfect for any room of the house, well-chosen blooms will lift your interior instantly.</p>
         <p>A combination of the right flower type and the ultimate vase can really amplify your chosen aesthetic. </p>
@@ -46,7 +73,7 @@
 
     <img class="divider" src="images/98b0a61cbd1f157d841d5df8613e2d29.jpg">
 
-    <section class="plants">
+    <section class="plants" id="plants">
         <h2>Plants</h2>
         <p>Decorating with plants is a wonderful way to bring life and vitality to interiors. There's nothing like lush greenery to brighten up a living space, plus the positive impact plants have on our health and wellbeing is well documented.</p>
         <p>With such a huge variety of indoor plants available, from dainty string of pearls to large bird of paradise plants and indoor trees like figs and citrus, the scope for decorating with plants is endless.  </p>
@@ -64,5 +91,8 @@
     <footer>
         <p>Coded with ♥ by <a href="https://github.com/vendulabezakova">Vendy Bezakova</a>, 2023</p>
     </footer>
+
+    <button onclick="topFunction()" id="scrollbtn" title="Go to top">Top</button>
+
 </body>
 </html>

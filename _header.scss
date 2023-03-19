@@ -7,3 +7,17 @@ header {
     height: 150px;
     padding: 20px;
 }
+
+@media only screen and (min-width: 768px) {
+    header {
+        height: 400px;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    header {
+      height: 800px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    }

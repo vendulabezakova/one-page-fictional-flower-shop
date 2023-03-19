@@ -1,8 +1,13 @@
 @use "colors";
 
 footer {
-    padding: 30px 20px;
+    padding: 10px 20px;
     background-color: colors.$color-background;
     color: colors.$color-text;
 }
 
+@media screen and (min-width: 768px) {
+  footer {
+    padding: 10px 150px;
+  }
+  }
