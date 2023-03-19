@@ -70,3 +70,20 @@ section {
     }
 
   }
+
+  @media screen and (min-width: 1400px) {
+    section {
+        padding: 150px 400px;
+    }
+
+    .usp {
+        padding: 100px;
+    }
+
+    .divider {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+
+    }
+  }
