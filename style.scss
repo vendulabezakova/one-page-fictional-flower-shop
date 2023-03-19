@@ -1,0 +1,33 @@
+@use "colors";
+@use "navbar";
+@use "typo";
+@use "footer";
+@use "header";
+
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.usp {
+    background-color: colors.$color-secondary;
+    color: colors.$color-text;
+    display: flex;
+}
+
+.usp p {
+    text-align: center;
+    justify-content: space-around;
+}
+
+section {
+    padding: 30px 20px;
+}
+
+.divider {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}

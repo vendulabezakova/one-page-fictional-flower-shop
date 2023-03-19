@@ -1,0 +1,77 @@
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: #D0BFB3;
+  color: #414E45;
+}
+
+h1 {
+  color: #D0BFB3;
+  text-align: center;
+  text-shadow: 2px 1px 5px rgb(0, 0, 0);
+  font-size: 45px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav {
+  padding: 30px 0;
+  text-align: center;
+  background-color: #414E45;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff6f0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  padding: 30px 20px;
+  background-color: #414E45;
+  color: #fff6f0;
+}
+
+header {
+  background-image: url("images/white-flowers-in-a-basket-1067x1600.jpeg");
+  background-position: center;
+  height: 150px;
+  padding: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.usp {
+  background-color: #7A5D49;
+  color: #fff6f0;
+  display: flex;
+}
+
+.usp p {
+  text-align: center;
+  justify-content: space-around;
+}
+
+section {
+  padding: 30px 20px;
+}
+
+.divider {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,8 @@
+@use "colors";
+
+footer {
+    padding: 30px 20px;
+    background-color: colors.$color-background;
+    color: colors.$color-text;
+}
+

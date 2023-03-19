@@ -1,0 +1,14 @@
+@use "colors";
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: colors.$color-primary;
+    color: colors.$color-background;
+}
+
+h1 {
+    color: colors.$color-primary;
+    text-align: center;
+    text-shadow: 2px 1px 5px rgb(0, 0, 0);
+    font-size: 45px;
+}
