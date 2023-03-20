@@ -11,3 +11,9 @@ footer {
     padding: 10px 150px;
   }
   }
+
+  @media screen and (min-width: 1400px) {
+    footer {
+      padding: 30px 400px;
+    }
+  }

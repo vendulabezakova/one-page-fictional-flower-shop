@@ -24,3 +24,9 @@ nav ul {
     display: flex;
     justify-content: space-around;
 }
+
+@media screen and (min-width: 1400px) {
+   nav li {
+    font-size: 1.2rem;
+   }
+  }
